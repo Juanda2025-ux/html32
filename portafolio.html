@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Blog | Nexuma</title>
+  <title>Portafolio | Nexuma</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -54,48 +54,48 @@
     }
 
     h2 {
-      text-align: center;
       color: #00f7ff;
+      text-align: center;
       margin-bottom: 2rem;
     }
 
-    .blog-grid {
+    .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
     }
 
-    .post {
-      background: #1a1a2e;
+    .project {
+      background-color: #1a1a2e;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 0 12px rgba(0, 247, 255, 0.1);
-      transition: transform 0.3s;
+      box-shadow: 0 0 12px rgba(0,247,255,0.1);
+      transition: transform 0.3s ease;
     }
 
-    .post:hover {
+    .project:hover {
       transform: translateY(-5px);
     }
 
-    .post img {
+    .project img {
       width: 100%;
       height: 180px;
       object-fit: cover;
     }
 
-    .post-content {
+    .project-info {
       padding: 1rem;
     }
 
-    .post-content h3 {
-      color: #00f7ff;
+    .project-info h3 {
       margin: 0;
+      color: #00f7ff;
     }
 
-    .post-content p {
-      color: #ccc;
+    .project-info p {
+      margin: 0.5rem 0;
       font-size: 0.95rem;
-      margin: 0.5rem 0 0;
+      color: #ccc;
     }
 
     footer {
@@ -134,55 +134,67 @@
   </header>
 
   <main>
-    <h2>Últimas Publicaciones</h2>
+    <h2>Proyectos Destacados</h2>
 
-    <div class="blog-grid">
+    <div class="grid">
 
-      <div class="post">
-        <img src="recursos/tendenciadiseno.png" alt="Tendencias de Diseño 2025">
-        <div class="post-content">
-          <h3>Tendencias de Diseño 2025</h3>
-          <p>Explora las nuevas corrientes visuales que dominarán el mundo del diseño gráfico y UI este año.</p>
+      <div class="project">
+        <img src="recursos/bwellness.jpg" alt="Moreka Fit">
+        <div class="project-info">
+          <h3>Wellness</h3>
+          <p><strong>Categoría:</strong> Branding</p>
+          <p><strong>Cliente:</strong>Wellness</p>
+          <p>Diseño de identidad visual para marca de ropa deportiva, incluyendo logotipo y manual de marca.</p>
         </div>
       </div>
 
-      <div class="post">
-        <img src="recursos/marcaexitosa.jpg" alt="Cómo Crear una Marca Exitosa">
-        <div class="post-content">
-          <h3>Cómo Crear una Marca Exitosa</h3>
-          <p>Descubre los pilares fundamentales para construir una marca sólida y coherente desde cero.</p>
+      <div class="project">
+        <img src="recursos/webacash.jpg" alt="Inizio Spa">
+        <div class="project-info">
+          <h3>Bacash</h3>
+          <p><strong>Categoría:</strong> Web</p>
+          <p><strong>Cliente:</strong>Bacash</p>
+          <p>Creación de sitio web corporativo con secciones de servicios, contacto y blog en Wordpress.</p>
         </div>
       </div>
 
-      <div class="post">
-        <img src="recursos/webcreativa.jpg" alt="Tips para Webs Creativas">
-        <div class="post-content">
-          <h3>Tips para Webs Creativas</h3>
-          <p>Te damos ideas para que tu sitio web combine funcionalidad y diseño con impacto visual.</p>
+      <div class="project">
+        <img src="recursos/oldmoney.jpg" alt="Four G Gamarra">
+        <div class="project-info">
+          <h3>ETAFASHION</h3>
+          <p><strong>Categoría:</strong>Publicidad</p>
+          <p><strong>Cliente:</strong> ETAFASHION</p>
+          <p>Campañas gráficas para tienda de ropa masculina: banners, flyers y contenido digital.</p>
         </div>
       </div>
 
-      <div class="post">
-        <img src="recursos/redessociales.png" alt="Redes Sociales para Negocios">
-        <div class="post-content">
-          <h3>Redes Sociales para Negocios</h3>
-          <p>Aprende a usar Instagram y TikTok para posicionar tu marca con estrategias efectivas.</p>
+      <div class="project">
+        <img src="recursos/landingpage.jpg" alt="Landing Limpiatodo">
+        <div class="project-info">
+          <h3>Hub</h3>
+          <p><strong>Categoría:</strong>Landing Page</p>
+          <p><strong>Cliente:</strong> Hub</p>
+          <p>Diseño de landing page para una agencia de marketing, enfocado en realizar ventas online</p>
         </div>
       </div>
 
-      <div class="post">
-        <img src="recursos/brandingminimalista.jpg" alt="Branding Minimalista">
-        <div class="post-content">
-          <h3>El Poder del Branding Minimalista</h3>
-          <p>Menos es más: cómo el diseño simple puede aumentar el reconocimiento de tu marca.</p>
+      <div class="project">
+        <img src="recursos/sagemoon.jpg" alt="Campaña Ñañito Bebé">
+        <div class="project-info">
+          <h3>Aroma Bebé</h3>
+          <p><strong>Categoría:</strong>Packaging</p>
+          <p><strong>Cliente:</strong>Sage Moon</p>
+          <p>Diseño de etiquetas, afiches y redes sociales para campaña de productos de aseo personal femenino.</p>
         </div>
       </div>
 
-      <div class="post">
-        <img src="recursos/animacionesweb.jpg" alt="Animaciones Web Interactivas">
-        <div class="post-content">
-          <h3>Animaciones Web Interactivas</h3>
-          <p>¿Vale la pena animar tu web? Te contamos cómo y cuándo usar efectos para mejorar UX.</p>
+      <div class="project">
+        <img src="recursos/coffera.jpg" alt="Cafetería Urbana">
+        <div class="project-info">
+          <h3>Café Urbana</h3>
+          <p><strong>Categoría:</strong> Branding + Web</p>
+          <p><strong>Cliente:</strong>Coffeera</p>
+          <p>Identidad visual, menú, redes y sitio web para nueva marca de cafetería artesanal en Lima.</p>
         </div>
       </div>
 
@@ -190,7 +202,7 @@
 
   </main>
 
-   <footer>
+  <footer>
     <p>&copy; 2025 Nexuma Agencia Creativa - Todos los derechos reservados. <br>
     Integrantes: Alama Chinchay, José Manuel - Alarcón Santillán, Andrea Selenne - Matta Bernaola, Óscar Francisco - Silvera Nuñez, Juan David.</p>
     <div>

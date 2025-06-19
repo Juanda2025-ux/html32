@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Blog | Nexuma</title>
+  <title>Colaboradores | Nexuma</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -12,7 +12,6 @@
       background: linear-gradient(#2fd2d8, #1a1a2e);
       color: #f0f0f0;
     }
-
     header {
       background: #1a1a2e;
       padding: 1rem 2rem;
@@ -54,48 +53,48 @@
     }
 
     h2 {
-      text-align: center;
       color: #00f7ff;
+      text-align: center;
       margin-bottom: 2rem;
     }
 
-    .blog-grid {
+    .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 2rem;
     }
 
-    .post {
-      background: #1a1a2e;
+    .card {
+      background-color: #1a1a2e;
+      padding: 2rem 1rem;
       border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 0 12px rgba(0, 247, 255, 0.1);
-      transition: transform 0.3s;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(0, 247, 255, 0.08);
+      transition: transform 0.3s ease;
     }
 
-    .post:hover {
+    .card:hover {
       transform: translateY(-5px);
     }
 
-    .post img {
-      width: 100%;
-      height: 180px;
+    .card img {
+      width: 100px;
+      height: 100px;
       object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00f7ff;
+      margin-bottom: 1rem;
     }
 
-    .post-content {
-      padding: 1rem;
-    }
-
-    .post-content h3 {
+    .card h3 {
+      margin: 0.5rem 0 0.2rem;
       color: #00f7ff;
-      margin: 0;
     }
 
-    .post-content p {
+    .card p {
+      margin: 0.2rem 0;
       color: #ccc;
       font-size: 0.95rem;
-      margin: 0.5rem 0 0;
     }
 
     footer {
@@ -134,63 +133,49 @@
   </header>
 
   <main>
-    <h2>Últimas Publicaciones</h2>
+    <h2>Nuestro Equipo</h2>
+    <div class="cards">
 
-    <div class="blog-grid">
-
-      <div class="post">
-        <img src="recursos/tendenciadiseno.png" alt="Tendencias de Diseño 2025">
-        <div class="post-content">
-          <h3>Tendencias de Diseño 2025</h3>
-          <p>Explora las nuevas corrientes visuales que dominarán el mundo del diseño gráfico y UI este año.</p>
-        </div>
+      <div class="card">
+        <img src="recursos/juansilvera.jpg" alt="Ana Torres">
+        <h3>Juan David Silvera Nuñez</h3>
+        <p><strong>Director Creativo</strong></p>
+        <p>+51 936 081 091</p>
+        <p>jsilvera@nexuma.com</p>
+        <p>Especialista en branding, dirección de arte y conceptos visuales innovadores.</p>
       </div>
 
-      <div class="post">
-        <img src="recursos/marcaexitosa.jpg" alt="Cómo Crear una Marca Exitosa">
-        <div class="post-content">
-          <h3>Cómo Crear una Marca Exitosa</h3>
-          <p>Descubre los pilares fundamentales para construir una marca sólida y coherente desde cero.</p>
-        </div>
+      <div class="card">
+        <img src="recursos/josealama.jpg" alt="Marco Rivera">
+        <h3>José Manuel Alama Chinchay</h3>
+        <p><strong>Desarrollador Web</strong></p>
+        <p>+51 936 446 842</p>
+        <p>jalama@nexuma.com</p>
+        <p>Experto en desarrollo full-stack, interfaces interactivas y diseño UX/UI.</p>
       </div>
 
-      <div class="post">
-        <img src="recursos/webcreativa.jpg" alt="Tips para Webs Creativas">
-        <div class="post-content">
-          <h3>Tips para Webs Creativas</h3>
-          <p>Te damos ideas para que tu sitio web combine funcionalidad y diseño con impacto visual.</p>
-        </div>
+      <div class="card">
+        <img src="recursos/andrealarcon.jpg" alt="Carla León">
+        <h3>Andrea Selenne Alarcón Santillán</h3>
+        <p><strong>Social Media Manager</strong></p>
+        <p>+51 986 461 063</p>
+        <p>salarcon@nexuma.com</p>
+        <p>Creadora de contenido estratégico para posicionamiento en redes sociales.</p>
       </div>
 
-      <div class="post">
-        <img src="recursos/redessociales.png" alt="Redes Sociales para Negocios">
-        <div class="post-content">
-          <h3>Redes Sociales para Negocios</h3>
-          <p>Aprende a usar Instagram y TikTok para posicionar tu marca con estrategias efectivas.</p>
-        </div>
-      </div>
-
-      <div class="post">
-        <img src="recursos/brandingminimalista.jpg" alt="Branding Minimalista">
-        <div class="post-content">
-          <h3>El Poder del Branding Minimalista</h3>
-          <p>Menos es más: cómo el diseño simple puede aumentar el reconocimiento de tu marca.</p>
-        </div>
-      </div>
-
-      <div class="post">
-        <img src="recursos/animacionesweb.jpg" alt="Animaciones Web Interactivas">
-        <div class="post-content">
-          <h3>Animaciones Web Interactivas</h3>
-          <p>¿Vale la pena animar tu web? Te contamos cómo y cuándo usar efectos para mejorar UX.</p>
-        </div>
+      <div class="card">
+        <img src="recursos/oscarmatta.jpg" alt="Daniel Cruz">
+        <h3>Óscar Francisco Matta Bernaola</h3>
+        <p><strong>Diseñador Gráfico</strong></p>
+        <p>+51 943 486 643</p>
+        <p>daniel@nexuma.com</p>
+        <p>Diseñador visual con talento para ilustración, editorial y piezas publicitarias.</p>
       </div>
 
     </div>
-
   </main>
 
-   <footer>
+  <footer>
     <p>&copy; 2025 Nexuma Agencia Creativa - Todos los derechos reservados. <br>
     Integrantes: Alama Chinchay, José Manuel - Alarcón Santillán, Andrea Selenne - Matta Bernaola, Óscar Francisco - Silvera Nuñez, Juan David.</p>
     <div>
